@@ -83,6 +83,15 @@ h1 {
 h2 {
   font-size: 45px;
 }
+.carousel-item img {
+  border: 5px solid #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000;
+  border-radius: 50%;
+}
 
 @media (max-width: 767px) {
   h2 {
